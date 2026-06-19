@@ -77,7 +77,7 @@ namespace NUREM_Website.Controllers
 
         // 5. KAPI: QR Kod Oluşturucu
         [HttpGet("qr-olustur")]
-        public IActionResult CreateQrCode([FromQuery] string url = "https://192.168.1.127:7286/index.html")
+        public IActionResult CreateQrCode([FromQuery] string url = "https://7286/index.html")
         {
             using (QRCodeGenerator qrGenerator = new QRCodeGenerator())
             {
