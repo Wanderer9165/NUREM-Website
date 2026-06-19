@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../NUREM.Auth/NUREM.Auth.csproj" />
+  <Project Path="../NUREM.Menu/NUREM.Menu.csproj" Id="2fb092f2-c7a4-4e03-9de8-01a55cd2bfb6" />
+  <Project Path="../NUREM.News/NUREM.News.csproj" />
+  <Project Path="NUREM Website.csproj" />
+</Solution>
